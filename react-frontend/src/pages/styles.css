@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: default;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  color: #000;
+  background-color: #e6e6e6;
+
+  height: 100%;
+  min-height: 100%;
+}

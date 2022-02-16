@@ -1,2 +1,3 @@
 # Decti
-Serve images using IPFS
+
+Website to display images using IPFS
