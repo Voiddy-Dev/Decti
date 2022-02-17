@@ -24,10 +24,10 @@ class Home extends Component {
       element,
       {
         snapDestinationY: "100%",
-        timeout: 100,
-        duration: 300,
-        threshold: 0.3,
-        snapStop: true,
+        // timeout: 100,
+        // duration: 300,
+        // threshold: 0.3,
+        // snapStop: true,
       },
       () => {}
     );
@@ -54,7 +54,7 @@ class Home extends Component {
         <IntroBox />
         {this.state ? (
           this.state.directoryList.map((dir) => {
-            return DirectoryBox(dir); //<DirectoryBox dir={dir}></DirectoryBox>;
+            return <DirectoryBox dir={dir}></DirectoryBox>;
           })
         ) : (
           <Box fill>
